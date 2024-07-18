@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Horoscope Project</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>JavaScript Horoscope Project</h1>
+            <img src="public/crystalBall.png" alt="Crystal Ball">
+            <form id="horoscope-form">
+                <label for="name">Name:<input type="text" id="name" name="name" required></label>
+                <label for="dob">Date of Birth:<input type="date" id="dob" name="dob" required></label>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="horoscope" style="display: none;"></div>
+        </div>
+    </body>
+    <script src="horoscope.js"></script>
+</html>
